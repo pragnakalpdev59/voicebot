@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web based Voicebot | Pragnakalp Techlabs</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #e6e6fa; /* Light purple background color */
+    }
+    .video-container {
+      background-color: #ffffff; /* White background color for iframe */
+      border-radius: 15px; /* Rounded corners */
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 1080px; /* Maximum width for larger screens */
+    }
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container d-flex flex-column align-items-center justify-content-center min-vh-100">
+  <div class="video-container">
+    <h1 class="mb-4 text-center">Web based Voicebot | Pragnakalp Techlabs</h1>
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/g1p59Sk2IgE?si=IVoRPXWUVVwC8iwc&rel=0"  title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreenv autoplay></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
